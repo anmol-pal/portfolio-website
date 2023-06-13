@@ -9,7 +9,8 @@ import { AiOutlineMail } from "react-icons/ai";
 
 export default function SimpleFooter() {
   return (
-<footer className="absolute bottom-0 ml-12 mr-12 mb-12 w-screen grid grid-cols-6 gap-4">
+    //absolute if need to fix the footer
+<footer className="bottom-0 ml-12 mr-12 mb-12 w-screen grid grid-cols-6 gap-4">
   <div className="col-span-3">
     <Typography color="blue-gray" className="font-semibold text-custom-font-mono text-xl col-span-3 transition-colors hover:text-blue-500">
       Lets Connect 😃
