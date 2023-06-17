@@ -2,9 +2,8 @@ import './App.css';
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Home from './components/Home'
-import Skills from './components/Skills';
+import WorkAndEducation from './components/WorkAndEducation';
 import 'tailwindcss/tailwind.css';
-
 function App() {
 
   return (
@@ -13,8 +12,10 @@ function App() {
         </div>
         <Header/>
         <Home/>
-        <Skills/>
+        <WorkAndEducation/>
         <Footer/>
+        
+
     </div>
   );
 }

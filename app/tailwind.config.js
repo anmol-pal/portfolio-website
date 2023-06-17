@@ -8,6 +8,9 @@ module.exports = {
       },
       fontFamily: {
         Pangolin: ['Pangolin', ...defaultTheme.fontFamily.sans],
+        Allura: ['Allura', ...defaultTheme.fontFamily.sans],
+        
+
       },
     },
   },

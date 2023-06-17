@@ -11,26 +11,26 @@ function Header(props){
 
     return(
         <>
-            <div class="w-screen flex items-center">
-            <div class="grid grid-flow-row gap-10 w-full mt-6">
-                <div class="flex items-center justify-around">
-                <div class="flex items-center mouse transition ease-in duration-200 focus:outline-none transition-colors hover:text-yellow-700 focus:text-blue-500 ">
+            <div className="w-screen flex items-center">
+            <div className="grid grid-flow-row gap-10 w-full mt-6">
+                <div className="flex items-center justify-around">
+                <div className="flex items-center mouse transition ease-in duration-200 focus:outline-none transition-colors hover:text-yellow-700 focus:text-yellow-700">
                         <AiOutlineHome className="text-3xl" />
                         <span className="pr-2 pl-2">Home</span>
                 </div>
-                <div class="flex items-center mouse transition ease-in duration-200 focus:outline-none transition-colors hover:text-yellow-700 focus:text-blue-500 ">
+                <div className="flex items-center mouse transition ease-in duration-200 focus:outline-none transition-colors hover:text-yellow-700 focus:text-yellow-700">
                         <IoMdBuild className="text-3xl" />
                         <span className="pr-2 pl-2">Skills</span>
                 </div>
-                <div class="flex items-center mouse transition ease-in duration-200 focus:outline-none transition-colors hover:text-yellow-700 focus:text-blue-500 ">
+                <div className="flex items-center mouse transition ease-in duration-200 focus:outline-none transition-colors hover:text-yellow-700 focus:text-yellow-700">
                         <VscProject className="text-3xl" />
                         <span className="pr-2 pl-2">Projects</span>
                 </div>
-                <div class="flex items-center mouse transition ease-in duration-200 focus:outline-none transition-colors hover:text-yellow-700 focus:text-blue-500 ">
-                        <CgWorkAlt className="transition-colors hover:text-blue-500 focus:text-blue-500 text-3xl" />
+                <div className="flex items-center mouse transition ease-in duration-200 focus:outline-none transition-colors hover:text-yellow-700 focus:text-yellow-700">
+                        <CgWorkAlt className="text-3xl" />
                         <span className="pr-2 pl-2">Work</span>
                 </div>
-                <div class="flex items-center mouse transition ease-in duration-200 focus:outline-none transition-colors hover:text-yellow-700 focus:text-blue-500 ">
+                <div className="flex items-center mouse transition ease-in duration-200 focus:outline-none transition-colors hover:text-yellow-700 focus:text-yellow-700">
                         <IoIosSchool className="text-3xl" />
                         <span className="pr-2 pl-2">Education</span>
                 </div>
